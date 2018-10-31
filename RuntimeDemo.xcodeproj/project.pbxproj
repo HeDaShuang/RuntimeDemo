@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		076E7C0420D932A5003CB665 /* UIViewController+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 076E7C0320D932A5003CB665 /* UIViewController+Swizzling.m */; };
+		077050322189CB5F00BB41CD /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 077050312189CB5F00BB41CD /* Cat.m */; };
 		079DE1BD20CE9A81009B00A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 079DE1BC20CE9A81009B00A7 /* AppDelegate.m */; };
 		079DE1C020CE9A81009B00A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 079DE1BF20CE9A81009B00A7 /* ViewController.m */; };
 		079DE1C320CE9A81009B00A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 079DE1C120CE9A81009B00A7 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 		079DE1CB20CE9A83009B00A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 079DE1CA20CE9A83009B00A7 /* main.m */; };
 		079DE1D520CE9A83009B00A7 /* RuntimeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 079DE1D420CE9A83009B00A7 /* RuntimeDemoTests.m */; };
 		079DE1E020CE9A83009B00A7 /* RuntimeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 079DE1DF20CE9A83009B00A7 /* RuntimeDemoUITests.m */; };
+		079DE1EF20CE9CEC009B00A7 /* UIView+DefaultBColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 079DE1EE20CE9CEC009B00A7 /* UIView+DefaultBColor.m */; };
+		07D8824F20D92D9D00DA2EB6 /* NSObject+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D8824E20D92D9D00DA2EB6 /* NSObject+Swizzling.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		076E7C0220D932A5003CB665 /* UIViewController+Swizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Swizzling.h"; sourceTree = "<group>"; };
+		076E7C0320D932A5003CB665 /* UIViewController+Swizzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Swizzling.m"; sourceTree = "<group>"; };
+		077050302189CB5F00BB41CD /* Cat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		077050312189CB5F00BB41CD /* Cat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
 		079DE1B820CE9A81009B00A7 /* RuntimeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuntimeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		079DE1BB20CE9A81009B00A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		079DE1BC20CE9A81009B00A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +59,10 @@
 		079DE1DB20CE9A83009B00A7 /* RuntimeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuntimeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		079DE1DF20CE9A83009B00A7 /* RuntimeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeDemoUITests.m; sourceTree = "<group>"; };
 		079DE1E120CE9A83009B00A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		079DE1ED20CE9CEC009B00A7 /* UIView+DefaultBColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+DefaultBColor.h"; sourceTree = "<group>"; };
+		079DE1EE20CE9CEC009B00A7 /* UIView+DefaultBColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+DefaultBColor.m"; sourceTree = "<group>"; };
+		07D8824D20D92D9D00DA2EB6 /* NSObject+Swizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzling.h"; sourceTree = "<group>"; };
+		07D8824E20D92D9D00DA2EB6 /* NSObject+Swizzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzling.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +122,14 @@
 				079DE1C620CE9A83009B00A7 /* LaunchScreen.storyboard */,
 				079DE1C920CE9A83009B00A7 /* Info.plist */,
 				079DE1CA20CE9A83009B00A7 /* main.m */,
+				079DE1ED20CE9CEC009B00A7 /* UIView+DefaultBColor.h */,
+				079DE1EE20CE9CEC009B00A7 /* UIView+DefaultBColor.m */,
+				07D8824D20D92D9D00DA2EB6 /* NSObject+Swizzling.h */,
+				07D8824E20D92D9D00DA2EB6 /* NSObject+Swizzling.m */,
+				076E7C0220D932A5003CB665 /* UIViewController+Swizzling.h */,
+				076E7C0320D932A5003CB665 /* UIViewController+Swizzling.m */,
+				077050302189CB5F00BB41CD /* Cat.h */,
+				077050312189CB5F00BB41CD /* Cat.m */,
 			);
 			path = RuntimeDemo;
 			sourceTree = "<group>";
@@ -264,7 +284,11 @@
 			files = (
 				079DE1C020CE9A81009B00A7 /* ViewController.m in Sources */,
 				079DE1CB20CE9A83009B00A7 /* main.m in Sources */,
+				077050322189CB5F00BB41CD /* Cat.m in Sources */,
+				076E7C0420D932A5003CB665 /* UIViewController+Swizzling.m in Sources */,
 				079DE1BD20CE9A81009B00A7 /* AppDelegate.m in Sources */,
+				07D8824F20D92D9D00DA2EB6 /* NSObject+Swizzling.m in Sources */,
+				079DE1EF20CE9CEC009B00A7 /* UIView+DefaultBColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIView+DefaultBColor.h"
+#import "Cat.h"
 
 @interface ViewController : UIViewController
 
