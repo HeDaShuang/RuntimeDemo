@@ -21,7 +21,7 @@
 
 -(void)my_ViewDidAppear:(BOOL) animated{
     [self my_ViewDidAppear:animated];
-    NSLog(@"===== %@ viewDidAppear=====",[self class]);
+    NSLog(@"===== %@ view Did Appear=====",[self class]);
 }
 
 @end
